@@ -11,7 +11,7 @@
       <option name="REGEXP" value="$FILE_PATH$" />
     </filter>
   </tool>
-  <tool name="RobotF：Run SingleTestCase" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="RobotF：Run SingleTestCase" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="robot" />
       <option name="PARAMETERS" value="-d ./.pycharm_log/.$FileNameWithoutExtension$_log -t &quot;$SelectedText$&quot; $FileName$" />
@@ -23,7 +23,7 @@
       <option name="REGEXP" value="$FILE_PATH$" />
     </filter>
   </tool>
-  <tool name="Python：autopep8 自动格式化" description="将Python代码自动排版为PEP8风格" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Python：autopep8 自动格式化" description="将Python代码自动排版为PEP8风格" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="D:\python\python36\Scripts\autopep8.exe" />
       <option name="PARAMETERS" value="--in-place --aggressive --ignore=E123,E133,E50 $FilePath$" />
@@ -35,7 +35,7 @@
       <option name="REGEXP" value="$FILE_PATH$\:$LINE$\:$COLUMN$\:.*" />
     </filter>
   </tool>
-  <tool name="Python：flake8 代码检查" description="代码检查" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Python：flake8 代码检查" description="代码检查" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="D:\python\python36\Scripts\flake8.exe" />
       <option name="PARAMETERS" value="$FilePath$" />
@@ -47,7 +47,7 @@
       <option name="REGEXP" value="$FILE_PATH$\:$LINE$\:$COLUMN$\:.*" />
     </filter>
   </tool>
-  <tool name="Python：pylint 代码分析" description="代码分析工具" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Python：pylint 代码分析" description="代码分析工具" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="pylint" />
       <option name="PARAMETERS" value="--output-format=parseable --disable=C0102,C0103,C0111,C0301,C0302,C0303,C0304,C0305,W0120,W0123,W0401,W0603,W0612,W0614,W0621,W0622,W0703,E1003,E1101 -rn --msg-template=&quot;{abspath}:{line}: [{msg_id}({symbol}), {obj}] {msg}&quot; $FilePath$" />
@@ -59,7 +59,7 @@
       <option name="REGEXP" value="$FILE_PATH$:$LINE$:" />
     </filter>
   </tool>
-  <tool name="Python：isort import排序" description="import排序" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Python：isort import排序" description="import排序" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="isort" />
       <option name="PARAMETERS" value="$FilePath$" />
