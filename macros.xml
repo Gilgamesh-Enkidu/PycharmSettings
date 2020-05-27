@@ -1,8 +1,0 @@
-<application>
-  <component name="ActionMacroManager">
-    <macro name="YAPF">
-      <action id="YapfFormat" />
-      <action id="OptimizeImports" />
-    </macro>
-  </component>
-</application>
