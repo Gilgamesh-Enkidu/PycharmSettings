@@ -1,13 +1,13 @@
 <toolSet name="External Tools">
-  <tool name="RobotF：Run TestSuite" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="RobotF：Run TestSuite" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="powershell" />
       <option name="PARAMETERS" value="robot -d ./.pycharm_log/.$FileNameWithoutExtension$_log $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="" />
-      <option name="DESCRIPTION" value="" />
+      <option name="NAME" />
+      <option name="DESCRIPTION" />
       <option name="REGEXP" value="$FILE_PATH$" />
     </filter>
   </tool>
@@ -23,7 +23,7 @@
       <option name="REGEXP" value="$FILE_PATH$" />
     </filter>
   </tool>
-  <tool name="Python：autopep8 自动格式化" description="将Python代码自动排版为PEP8风格" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Python：autopep8 自动格式化" description="将Python代码自动排版为PEP8风格" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="D:\python\python36\Scripts\autopep8.exe" />
       <option name="PARAMETERS" value="--in-place --aggressive --ignore=E123,E133,E50 $FilePath$" />
